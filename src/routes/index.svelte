@@ -8,8 +8,8 @@
 
       return { usStats }
     } catch (e) {
-      this.error( 500 , "There was an error in calling the api, please try again in 5 minutes.")
-      return;
+    //  this.error( 500 , "There was an error in calling the api, please try again in 5 minutes.")
+    //  return;
     }
   }
 
@@ -22,7 +22,6 @@
   import TableContainer from '../components/TableContainer.svelte';
 
   export let usStats;
-  console.log(usStats, "usStats")
 </script>
 
 <svelte:head>
